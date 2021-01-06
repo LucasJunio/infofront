@@ -51,8 +51,6 @@ $ yarn start
  <sub><b>Lucas Junio</b></sub></a> <a href="https://madaztec.com/" title="Madaztec">🚀</a>
  <br />
 
-[![Linkedin Badge](https://www.linkedin.com/in/lucas-junio/?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/lucas-junio/)](https://www.linkedin.com/in/lucas-junio/) 
-[![Gmail Badge](https://img.shields.io/badge/-tgmarinho@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:lucas.verdine@gmail.com)](mailto:lucas.verdine@gmail.com)
 
 ---
 
