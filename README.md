@@ -1,64 +1,62 @@
-# Sobre
 
-Estes documento README tem como objetivo fornecer as informaÃ§Ãµes necessÃ¡rias para realizaÃ§Ã£o do projeto Empresas.
 
-# ðŸ— O que fazer?
+<h1 align="center">
+     🐙 <a href="#" alt=""> React Teste InfoSistemas</a>
+</h1>
 
-- VocÃª deve realizar um fork deste repositÃ³rio e, ao finalizar, enviar o link do seu repositÃ³rio para a nossa equipe. Lembre-se, NÃƒO Ã© necessÃ¡rio criar um Pull Request para isso, nÃ³s iremos avaliar e retornar por email o resultado do seu teste.
+<h3 align="center">
+    🧪 Frontend. 💚
+</h3>
 
-# ðŸš¨ Requisitos
+<h4 align="center">
+	🚧   Concluído 🚀 🚧
+</h4>
 
-- Seu projeto deverÃ¡ ser construÃ­do utilizando **ReactJS** ou **Angular**.
-- Seu projeto deverÃ¡ ser construÃ­do utilizando o layout disponibilizado na descriÃ§Ã£o do teste.
-- A integraÃ§Ã£o com a API deve ser feita respeitando todos os contratos de OAuth.
-- Projetos utilizando **ReactJS** serÃ£o aceitos testes somente em **JavaScript** buscando avaliar o entendimento completo da linguagem e nÃ£o de estruturas ou dependÃªncias que abstraiam determinadas definiÃ§Ãµes nÃ£o alheias ao ECMAScript.
 
-# ðŸ•µðŸ»â€â™‚ï¸ Itens a serem avaliados
+### Pré-requisitos
 
-- Estrutura do Projeto
-- Boas prÃ¡ticas da Linguagem/Framework
-- IntegraÃ§Ã£o com API
-- Bibliotecas utilizadas
-- EstilizaÃ§Ã£o dos componentes
-- PersistÃªncia de login
-- Layout responsivo
-- Friendly URL
-- Seu projeto deverÃ¡ seguir tudo o que foi exigido na seÃ§Ã£o [O que desenvolver?](##--o-que-desenvolver)
+Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
+[Git](https://git-scm.com), [Node.js](https://nodejs.org/en/). 
+Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/)
 
-# ðŸŽ Extra
 
-Esses itens nÃ£o sÃ£o obrigatÃ³rios, porÃ©m desejados.
+### 🔬 Rodando o teste
 
-- Testes unitÃ¡rios
-- SEO
-- Linter
-- Code Formater
-- DocumentaÃ§Ã£o de componente
+```bash
 
-# ðŸ–¥ O que desenvolver?
+# Clone este repositório
+$ git clone https://github.com/LucasJunio/infofront
 
-VocÃª deverÃ¡ construir um projeto utilizando o layout proposto
+# Acesse a pasta do projeto no seu terminal/cmd
+$ cd infofront
 
-- Login e acesso de UsuÃ¡rio jÃ¡ registrado
-  - Para o login usamos padrÃµes OAuth 2.0. Na resposta de sucesso do login a api retornarÃ¡ 3 custom headers (access-token, client, uid);
-  - Para ter acesso as demais APIS precisamos enviar esses 3 custom headers para a API autorizar a requisiÃ§Ã£o;
-- Listagem de Empresas
-- Detalhamento de Empresas
+# Instale as dependências
+$ npm install
 
-# ðŸ”— Links e InformaÃ§Ãµes Importantes
+# Execute o App
+$ yarn start
 
-## Layout
 
-- Layout e recortes disponÃ­veis no Zeplin
-- https://app.zeplin.io/
-- **usuÃ¡rio:** teste_web
-- **senha:** teste_ioasys
+# A aplicação será aberta na porta:3000 - acesse http://localhost:3000
 
-## IntegraÃ§Ã£o com API
+```
 
-- A documentaÃ§Ã£o da API estÃ¡ disponÃ­vel a partir de uma collection para Postman (https://www.getpostman.com/apps) neste repositÃ³rio. Para utilizar a collection, vÃ¡ atÃ© o postman e import a colllection que estÃ¡ disponÃ­vel neste repositÃ³rio, assim vocÃª terÃ¡ acesso as documentaÃ§Ã£o da API.
+---
 
-- **Servidor:** http://empresas.ioasys.com.br
-- **VersÃ£o da API:** v1
-- **UsuÃ¡rio de Teste:** testeapple@ioasys.com.br
-- **Senha de Teste:** 12341234
+## 🦸 Autor
+
+<a href="https://madaztec.com/">
+ <img style="border-radius: 50%;" src="https://avatars1.githubusercontent.com/u/20959222?s=460&u=18b10f7fb7d2aca87ee0589d1825e754c67d222b&v=4" width="100px;" alt=""/>
+ <br />
+ <sub><b>Lucas Junio</b></sub></a> <a href="https://madaztec.com/" title="Madaztec">🚀</a>
+ <br />
+
+[![Linkedin Badge](https://www.linkedin.com/in/lucas-junio/?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/lucas-junio/)](https://www.linkedin.com/in/lucas-junio/) 
+[![Gmail Badge](https://img.shields.io/badge/-tgmarinho@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:lucas.verdine@gmail.com)](mailto:lucas.verdine@gmail.com)
+
+---
+
+## 📝 Licença
+
+
+Feito com ❤️ por Lucas Junio 👋🏽 [Entre em contato!](https://www.linkedin.com/in/lucas-junio/)
