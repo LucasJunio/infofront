@@ -1,70 +1,64 @@
-# Getting Started with Create React App
+# Sobre
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Estes documento README tem como objetivo fornecer as informaÃ§Ãµes necessÃ¡rias para realizaÃ§Ã£o do projeto Empresas.
 
-## Available Scripts
+# ðŸ— O que fazer?
 
-In the project directory, you can run:
+- VocÃª deve realizar um fork deste repositÃ³rio e, ao finalizar, enviar o link do seu repositÃ³rio para a nossa equipe. Lembre-se, NÃƒO Ã© necessÃ¡rio criar um Pull Request para isso, nÃ³s iremos avaliar e retornar por email o resultado do seu teste.
 
-### `npm start`
+# ðŸš¨ Requisitos
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- Seu projeto deverÃ¡ ser construÃ­do utilizando **ReactJS** ou **Angular**.
+- Seu projeto deverÃ¡ ser construÃ­do utilizando o layout disponibilizado na descriÃ§Ã£o do teste.
+- A integraÃ§Ã£o com a API deve ser feita respeitando todos os contratos de OAuth.
+- Projetos utilizando **ReactJS** serÃ£o aceitos testes somente em **JavaScript** buscando avaliar o entendimento completo da linguagem e nÃ£o de estruturas ou dependÃªncias que abstraiam determinadas definiÃ§Ãµes nÃ£o alheias ao ECMAScript.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+# ðŸ•µðŸ»â€â™‚ï¸ Itens a serem avaliados
 
-### `npm test`
+- Estrutura do Projeto
+- Boas prÃ¡ticas da Linguagem/Framework
+- IntegraÃ§Ã£o com API
+- Bibliotecas utilizadas
+- EstilizaÃ§Ã£o dos componentes
+- PersistÃªncia de login
+- Layout responsivo
+- Friendly URL
+- Seu projeto deverÃ¡ seguir tudo o que foi exigido na seÃ§Ã£o [O que desenvolver?](##--o-que-desenvolver)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# ðŸŽ Extra
 
-### `npm run build`
+Esses itens nÃ£o sÃ£o obrigatÃ³rios, porÃ©m desejados.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Testes unitÃ¡rios
+- SEO
+- Linter
+- Code Formater
+- DocumentaÃ§Ã£o de componente
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# ðŸ–¥ O que desenvolver?
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+VocÃª deverÃ¡ construir um projeto utilizando o layout proposto
 
-### `npm run eject`
+- Login e acesso de UsuÃ¡rio jÃ¡ registrado
+  - Para o login usamos padrÃµes OAuth 2.0. Na resposta de sucesso do login a api retornarÃ¡ 3 custom headers (access-token, client, uid);
+  - Para ter acesso as demais APIS precisamos enviar esses 3 custom headers para a API autorizar a requisiÃ§Ã£o;
+- Listagem de Empresas
+- Detalhamento de Empresas
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+# ðŸ”— Links e InformaÃ§Ãµes Importantes
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Layout
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+- Layout e recortes disponÃ­veis no Zeplin
+- https://app.zeplin.io/
+- **usuÃ¡rio:** teste_web
+- **senha:** teste_ioasys
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## IntegraÃ§Ã£o com API
 
-## Learn More
+- A documentaÃ§Ã£o da API estÃ¡ disponÃ­vel a partir de uma collection para Postman (https://www.getpostman.com/apps) neste repositÃ³rio. Para utilizar a collection, vÃ¡ atÃ© o postman e import a colllection que estÃ¡ disponÃ­vel neste repositÃ³rio, assim vocÃª terÃ¡ acesso as documentaÃ§Ã£o da API.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- **Servidor:** http://empresas.ioasys.com.br
+- **VersÃ£o da API:** v1
+- **UsuÃ¡rio de Teste:** testeapple@ioasys.com.br
+- **Senha de Teste:** 12341234
